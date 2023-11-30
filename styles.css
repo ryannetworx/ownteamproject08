@@ -119,15 +119,15 @@ body {
 }
 
 .banana {
-    width: 153.21px;
+    width: 143.21px;
     height: 100.613px;
     transform: rotate(20deg);
     flex-shrink: 0;
     background: url('banana_image.jpg'), lightgray 0px 0px / 100% 100% no-repeat;
     background-color: #AE1332;
-    filter: blur(2.5px);
-    bottom: -12px;
-    left: 12px;
+    filter: blur(2px);
+    bottom: 10px;
+    left: 16px;
 }
 
 .strawberry {
@@ -136,7 +136,7 @@ body {
     flex-shrink: 0;
     background: url('strawberry_image.jpg'), lightgray 50% / cover no-repeat;
     background-color: #AE1332;
-    filter: blur(2.5px);
+    filter: blur(2px);
     top: 30px;
     right: -10px;
 }
