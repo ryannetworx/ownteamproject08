@@ -84,7 +84,7 @@ body {
 
 .tagline-container {
     position: relative;
-    border: 3px solid;
+    /* border: 3px solid; */
     width: 898px;
     height: 16rem;
     justify-content: center;
