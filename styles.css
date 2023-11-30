@@ -52,7 +52,7 @@ body {
     width: 28px;
     height: 28px;
     flex-shrink: 0;
-    margin-right: 5rem;
+    margin-right: 2rem;
 }
 
 
@@ -78,16 +78,26 @@ body {
     background-color: #AE1332;
     height: 100vh; /* 100% of the viewport height */
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.tagline-container {
+    position: relative;
+    border: 3px solid;
+    width: 898px;
+    height: 16rem;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;    
+    display: flex;
+    margin-top: 5rem;
 }
 
 .tagline {
-    width: 898px;
     text-align: center;
-    margin-top: 3rem;
-    border: 1px solid white;
+    margin: 0;
+    position: relative;
+    /* z-index: 1; Ensure the text is above the images */
 }
 
 .tagline p {
