@@ -108,7 +108,7 @@ body {
     font-size: 3rem;
     font-weight: 500;
     line-height: 64px;
-    letter-spacing: -0.56px;
+    letter-spacing: .56px;
     text-transform: uppercase;
     position: relative;
     z-index: 1; /* Ensure the text is above the images */
@@ -119,22 +119,24 @@ body {
 }
 
 .banana {
-    width: 183.21px;
-    height: 124.613px;
+    width: 153.21px;
+    height: 100.613px;
     transform: rotate(20deg);
     flex-shrink: 0;
     background: url('banana_image.jpg'), lightgray 0px 0px / 100% 100% no-repeat;
-    filter: blur(3.5px);
-    bottom: 0;
-    left: 0;
+    background-color: #AE1332;
+    filter: blur(2.5px);
+    bottom: -12px;
+    left: 12px;
 }
 
 .strawberry {
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     flex-shrink: 0;
     background: url('strawberry_image.jpg'), lightgray 50% / cover no-repeat;
-    filter: blur(4px);
-    top: 0;
-    right: 0;
+    background-color: #AE1332;
+    filter: blur(2.5px);
+    top: 30px;
+    right: -10px;
 }
