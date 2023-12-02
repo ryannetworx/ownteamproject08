@@ -145,12 +145,42 @@ body {
 }
 
 .orange_girl {
+    position: relative;
     height: 1000px;
+    width: 650px;
     flex-shrink: 0;
     transform: scale(.55);
     border-radius: 500px;
-    outline: 1px solid white; /* Reintroduce the solid outline */
-    outline-offset: 20px; /* Adjust outline offset */4
+}
+
+.shop_now {
+    position: absolute;
+    bottom: 170px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-14deg);
+    background-color: white;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop_now p {
+    width: 5.25rem;
+    transform: rotate(-14deg);
+    color: #AE1332;
+    text-align: center;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem; /* 100% */
+    letter-spacing: -0.07rem;
+    text-transform: uppercase;
 }
 
 .curated_fruit {
