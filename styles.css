@@ -118,12 +118,11 @@ body {
 }
 
 .banana {
-    width: 143.21px;
+    width: 133.21px;
     height: 100.613px;
     transform: rotate(20deg);
     flex-shrink: 0;
-    background: url(''), lightgray 50% / cover no-repeat;
-    background-color: #AE1332;
+    background: url(''), rgba(174, 19, 50, 0) 50%/ cover no-repeat; /* Use rgba color with alpha set to 0 for transparency */
     filter: blur(1.5px);
     bottom: -10px;
     left: 16px;
