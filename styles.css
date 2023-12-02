@@ -123,9 +123,9 @@ body {
     height: 100.613px;
     transform: rotate(20deg);
     flex-shrink: 0;
-    background: url('banana_image.jpg'), lightgray 0px 0px / 100% 100% no-repeat;
+    background: url('images/banana_clear.png'), lightgray 50% / cover no-repeat;
     background-color: #AE1332;
-    filter: blur(2px);
+    filter: blur(1px);
     bottom: 10px;
     left: 16px;
 }
@@ -134,9 +134,9 @@ body {
     width: 110px;
     height: 110px;
     flex-shrink: 0;
-    background: url('strawberry_image.jpg'), lightgray 50% / cover no-repeat;
+    background: url('images/strawberry_clear.png'), lightgray 50% / cover no-repeat;
     background-color: #AE1332;
-    filter: blur(2px);
+    filter: blur(1.5px);
     top: 30px;
     right: -10px;
 }
