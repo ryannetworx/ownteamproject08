@@ -151,3 +151,17 @@ body {
     transform: scale(.55);
     border-radius: 500px;
 }
+
+.curated_fruit {
+    width: 13.875rem;
+    color: #FFF;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
+    font-family: DM Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.125rem; /* 128.571% */
+    letter-spacing: -0.035rem;
+    position: absolute;
+    top: 
+}
