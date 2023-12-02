@@ -197,3 +197,69 @@ body {
     top: 400px;
     left: 100px;
 }
+
+.green_box {
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    width: 15.5625rem;
+    height: 24.1875rem;
+    flex-shrink: 0;
+    border-radius: 31.25rem;
+    background: rgba(164, 203, 102, 1);
+    
+}
+
+.title_1 {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
+    font-family: DM Sans;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.875rem; /* 116.667% */
+    letter-spacing: -0.03rem;
+    padding-top: 1rem;
+}
+
+.hero_watermelon {
+    width: 12.5rem;
+    height: 10.75rem;
+    flex-shrink: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shadow_oval {
+    width: 14.9375rem;
+    height: 2.375rem;
+    flex-shrink: 0;
+    fill: #000;
+    opacity: 0.1;
+    filter: blur(13.591408729553223px);
+    position: absolute;
+    top: calc(45% + 10.75rem); /* Adjust the distance from the bottom of the image */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title_1_p {
+    width: 9.6875rem;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
+    font-family: DM Sans;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.875rem; /* 116.667% */
+    letter-spacing: -0.03rem;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 30px; /* Adjust the distance from the bottom as needed */
+    left: 50%;
+    transform: translateX(-50%);
+}
