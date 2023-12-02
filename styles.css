@@ -84,20 +84,19 @@ body {
 
 .tagline-container {
     position: relative;
-    /* border: 3px solid; */
     width: 898px;
     height: 16rem;
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .tagline {
     text-align: center;
     margin: 0;
     position: relative;
-    /* z-index: 1; Ensure the text is above the images */
+    z-index: 1; 
 }
 
 .tagline p {
@@ -123,10 +122,10 @@ body {
     height: 100.613px;
     transform: rotate(20deg);
     flex-shrink: 0;
-    background: url('images/banana_clear.png'), lightgray 50% / cover no-repeat;
+    background: url(''), lightgray 50% / cover no-repeat;
     background-color: #AE1332;
-    filter: blur(1px);
-    bottom: 10px;
+    filter: blur(1.5px);
+    bottom: -10px;
     left: 16px;
 }
 
@@ -134,9 +133,22 @@ body {
     width: 110px;
     height: 110px;
     flex-shrink: 0;
-    background: url('images/strawberry_clear.png'), lightgray 50% / cover no-repeat;
+    background: url(''), lightgray 50% / cover no-repeat;
     background-color: #AE1332;
     filter: blur(1.5px);
     top: 30px;
     right: -10px;
+}
+
+.center_orangegirl {
+    position: absolute;
+    z-index: 0; /* Place it behind the .tagline-container */
+    margin-top: -100px;
+}
+
+.orange_girl {
+    height: 1000px;
+    flex-shrink: 0;
+    transform: scale(.55);
+    border-radius: 500px;
 }
