@@ -79,7 +79,6 @@ body {
     height: 341rem; /* 100% of the viewport height */
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .tagline-container {
@@ -194,6 +193,44 @@ body {
     letter-spacing: -0.07rem;
     text-transform: uppercase;
 }
+
+/* Tablet-sized screens */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .curated_fruit,
+    .green_box,
+    .yellow_box,
+    .hashtags {
+        width: 100%;
+        position: absolute;
+    }
+
+    .curated_fruit {
+        order: 1; /* Change the order to move it down */
+        margin-top: 25rem; /* Add margin for spacing */
+        margin-left: -4rem;
+        width: 18rem;
+    }
+
+    .green_box {
+        order: 2;
+        margin-top: 26rem; /* Change the order to move it down */
+        margin-left: -2rem;
+    }
+
+    .yellow_box {
+        order: 3;
+        margin-top: 29rem; /* Change the order to move it down */
+        margin-right: -4rem;
+    }
+
+    .hashtags {
+        order: 4; /* Change the order to move it down */
+        margin-top: 29rem;
+        margin-right: -5rem;
+    }
+}
+
 
 .curated_fruit {
     width: 13.875rem;
